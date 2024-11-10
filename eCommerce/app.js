@@ -23,7 +23,7 @@ const products = [
 const cart = [];
 
 function login() {
-  window.location.href = "index.html";
+  location.replace("https://mgiftsonraj40.github.io/Wolf-LanC/eCommerce/index.html")
 }
 
 // Utility Functions

@@ -1,0 +1,29 @@
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  background: linear-gradient(45deg, #001136, #5900ff);
+  width: 100%;
+}
+
+.user-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #00000027;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button {
+  padding: 10px;
+  background: linear-gradient(45deg, #0051ff, #9900ff);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

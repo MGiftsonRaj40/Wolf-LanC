@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="shopApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Wolf LanC</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="ShopController">
+<img src="icon.png" alt="icon" style="position: absolute; width: 80px; margin: 10px;">
+  <!-- Navbar with Shop, Cart, and User Tabs -->
+  <nav>
+    <button onclick="scrollToShop()">Shop</button>
+    <a href="#cart"><button onclick="openCart()">Cart</button></a>
+    <button onclick="window.location.href='user.html'">User</button>
+  </nav>
+<br><br><br><br><br><br>
+  <section id="about-us">
+    <div id="abt">
+        <div>
+            <h1>About Us</h1>
+    <p>Welcome to <strong>Wolf LanC</strong>, your go-to destination for high-quality and affordable smartphones. Our mission is to provide a seamless shopping experience, offering the latest phone models at competitive prices.</p>
+        </div>
+    
+        <div>
+            <h2>Our Story</h2>
+    <p>Founded in , <strong>Wolf LanC</strong> started with a passion for bringing the best tech to everyone. We’ve grown into a trusted online store with a wide range of smartphones and accessories to suit all needs and budgets.</p>
+        </div>
+    </div>
+
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li><strong>Latest Models:</strong> Stay updated with the newest phones from top brands.</li>
+      <li><strong>Affordable Prices:</strong> Great phones at prices everyone can afford.</li>
+      <li><strong>Customer Service:</strong> Dedicated support to assist you every step of the way.</li>
+      <li><strong>Fast Delivery:</strong> Quick and reliable delivery right to your doorstep.</li>
+    </ul>
+
+    <p id="shop-dar">Thank you for choosing <strong>Wolf LanC</strong>!</p>
+  </section>
+  <br><br><br>
+  <u><h2 class="shop">Shop</h2></u>
+  <!-- Shop Section -->
+  <section id="shop">
+    <!-- Product cards will be injected here -->
+  </section>
+
+  <!-- Cart Popup Section -->
+  <div id="cart" style="display: none;">
+    <!-- Cart contents will be injected here -->
+  </div>
+
+</body>
+</html>

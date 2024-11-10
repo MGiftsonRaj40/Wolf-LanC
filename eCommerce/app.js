@@ -22,6 +22,10 @@ const products = [
 
 const cart = [];
 
+function login() {
+  window.location.href = "index.html";
+}
+
 // Utility Functions
 function scrollToShop() {
   document.getElementById('shop-dar').scrollIntoView({ behavior: 'smooth' });
